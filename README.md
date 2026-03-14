@@ -25,7 +25,7 @@ headlines from NewsAPI, with category filtering, live search, and pagination.
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/newsfeed_app.git
+git clone https://github.com/Abdallah-Mahdy-eg/newsfeed_app.git
 cd newsfeed_app
 ```
 
