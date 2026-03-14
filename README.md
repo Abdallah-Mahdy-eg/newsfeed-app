@@ -53,4 +53,4 @@ npm run dev
 
 ## 🌐 Live Demo
 
-[View Live →](YOUR_VERCEL_LINK)
+[View Live →](https://newsfeed-app-lake.vercel.app/)
