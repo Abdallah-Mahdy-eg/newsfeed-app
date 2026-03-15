@@ -26,7 +26,7 @@ function App() {
 
   async function loadData(currentCategory) {
     const response = await fetch(
-      `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?category=${currentCategory}&q=${queryValue.current}&pageSize=${PAGE_SIZE}&page=${pageNumber.current}&country=us&apiKey=${import.meta.env.VITE_NEWS_API_KEY}`,
+      `https://newsapi.org/v2/top-headlines?category=${currentCategory}&q=${queryValue.current}&pageSize=${PAGE_SIZE}&page=${pageNumber.current}&country=us&apiKey=${import.meta.env.VITE_NEWS_API_KEY}`,
     );
     const data = await response.json();
     if (data.status === "error") {
